@@ -196,20 +196,14 @@ permalink: /NLVC/
                 <tbody>
                   <tr style="border-top:1px solid black">
                     <td rowspan="2"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/22go010m_0.3947_421o0310_-0.3947.wav"
+                        <source src="samples/1/origin.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/22go010m_0.3947_421o0310_-0.3947_s1_gt.wav"
+                        <source src="samples/1/ref.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/22go010m_0.3947_421o0310_-0.3947_s1.wav"
+                        <source src="samples/1/converted.wav.wav"
                           type="audio/wav"></audio></td>
-                    <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/"
-                          type="audio/wav"></audio></td>
-                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/wham/"
-                          type="audio/wav"></audio></td> -->
                   </tr>
                   <tr>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
