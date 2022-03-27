@@ -1,7 +1,3 @@
-layout: page
-title: "NLVC: No Learning Zero Shot Voice Conversion with Denoising Diffusion Models"
-permalink: /NLVC/
-   
 <html>
 
   <head>
@@ -11,7 +7,7 @@ permalink: /NLVC/
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Voice Separation with an Unknown Number of Multiple Speakers</title>
+    <title>NLVC: No Learning Zero Shot Voice Conversion with Denoising Diffusion Models</title>
 
     <!-- Bootstrap core CSS -->
     <link href="src/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -55,11 +51,11 @@ permalink: /NLVC/
 
     <header class="bg-dark text-white">
       <div class="container text-center">
-        <h1>Voice Separation with an Unknown Number of Multiple Speakers</h1>
-        <p style="color:red;font-size:18px;">Publish as conference paper at "International Conference on Machine Learning" - ICML 2020</p>
-        <p class="lead"><a href="mailto:enk100@gmail.com" target="_top">Eliya Nachmani</a>, <a
-            href="mailto:yossiadidrum@gmail.com" target="_top">Yossi Adi</a>, <a href="mailto:liorwolf@gmail.com" target="_top">Lior Wolf</a></p>
-        <small>Facebook AI Research, Tel-Aviv University</small>
+        <h1>NLVC: No Learning Zero Shot Voice Conversion with Denoising Diffusion Models</h1>
+        <p style="color:red;font-size:18px;">Condidate for publishing at "INTERSPEECH 2022"  - ICML 2020</p>
+        <p class="lead"><a href="mailto:alonlevko@gmail.com" target="_top">Alon Levkovitch</a>, <a
+            href="mailto:enk100@gmail.com" target="_top">Eliya Nachmani</a>, <a href="mailto:liorwolf@gmail.com" target="_top">Lior Wolf</a></p>
+        <small>Tel-Aviv University</small>
       </div>
     </header>
 
