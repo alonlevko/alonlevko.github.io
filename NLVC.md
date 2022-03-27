@@ -1,7 +1,3 @@
-layout: page
-title: "NLVB"
-permalink: /NLVC/
-
 <html>
 
   <head>
