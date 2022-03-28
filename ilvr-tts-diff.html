@@ -14,7 +14,20 @@
 
     <!-- Custom styles for this template -->
     <link href="src/css/scrolling-nav.css" rel="stylesheet">
+	
+	<style>
+		h1 {
+		  text-align: center;
+		}
 
+		h2 {
+		  text-align: center;
+		}
+
+		h3 {
+		  text-align: center;
+		}
+	</style>
   </head>
 
   <body id="page-top">
@@ -37,7 +50,7 @@
                 a method for speech synthesis from unseen speakers using only a single reference with no training.
                 </p><p class="lead" align="justify">
                 We present a novel way for conditioning a pretrained denoising diffusion speech model to produce speech in the voice of a novel person,
-		unseen during training. The method requires a short ($\sim3$ seconds) sample of the target person,
+		unseen during training. The method requires a short (~3 seconds) sample of the target person,
 		and the steering of the generation is done at inference time without any training steps.
 		At the heart of the method lies a sampling process that combines the estimation of the denoising model together with
 		a low-pass version of the new speaker's sample. Objective and subjective evaluation shows that our sampling method is
@@ -50,13 +63,13 @@
     </section>
 
     <br>  </br>
-            <div class="container">
+            <center><div class="container">
               <div class="row">
                 <div class="col-md-8">
-                    <img src="src/grad_tts_ilvr.png" alt="Italian Trulli" width="750px" class="center">
+                    <img src="src/grad_tts_ilvr.png" alt="Italian Trulli" display="block" margin-left="auto" margin-right="auto">
                     <br>  </br>
                 </div>
-              </div>
+              </div></center>
 
               <br>  </br>
               <br>  </br>
@@ -72,7 +85,7 @@
           <div class="col-lg-13 mx-auto">
 
 
-            <p class="lead" align="justify">.<br><br>
+            <p class="lead" align="justify"><br><br>
                 Here are some samples generated from our mathod using the Grad-TTS Diffusion Denoising probabalistic model with Iterative latent variable sampling.
                 <ul class="lead" align="justify" >
                   <li>Grad-TTS - Sample generated from the baseline Grad-TTS model without our sampling method.</li>
@@ -156,9 +169,6 @@
 
               <br>  </br>
 
-
-
-              <center>
               <h3>Non Speech References Examples</h3>
               <p></p>
               <p></p>
@@ -211,8 +221,6 @@
 	    
 	      <br>  </br>
 
-
-            <center>
             <h3>N2 Values Scale</h3>
             <p></p>
             <p></p>
@@ -299,30 +307,25 @@
                 </tr>
               </tbody>
             </table>
-
-              <br>  </br>
-          </div>
-        </div>
-      </div>
-    </section>
-	</center>
-    <section id="code" class="bg-light">
-    	<center>
-	<h3>Code</h3>
-    	<div class="container">
+		
+            <br>  </br>
+			<br>  </br>
+		<div class="container">
 	    	<div class="row">
+				<div class="col-lg-13 mx-auto">
+				<h3>Code</h3>
 	    		<p class="lead" align="justify"> Code will be available under the following repo: github.com/alonlevko/grad_tts_ilvr
+				</div>
 	    	</div>
 	    </div>
-    </section>
 
-    <section id="Reference" class="bg-white">
-      <center>
-      <h3>References</h3>
+   
+      
 
       <div class="container">
         <div class="row">
           <div class="col-lg-13 mx-auto">
+		  <center><h3>References</h3></center>
               <p class="lead" align="justify">
                     <p class="lead" align="justify">
 			[1]. Popov V, Vovk I, Gogoryan V, Sadekova T, Kudinov M. Grad-tts: A diffusion probabilistic model for text-to-speech. InInternational Conference on Machine Learning 2021 Jul 1 (pp. 8599-8608). PMLR.                    </p>
@@ -333,7 +336,13 @@
           </div>
         </div>
       </div>
-    </section>
+		</center>
+          </div>
+        </div>
+      </div>
+	
+		
+    	
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
