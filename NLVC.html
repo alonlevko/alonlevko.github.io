@@ -157,7 +157,7 @@
 
 
               <center>
-              <h3>Voice mix-up examples</h3>
+              <h3>Non Speech References Examples</h3>
               <p></p>
               <p></p>
               <table>
@@ -170,47 +170,36 @@
                 </thead>
                 <tbody>
                   <tr style="border-top:1px solid black">
-                    <td rowspan="2"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/053a050c_0.76629_440c0205_-0.76629.wav"
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="samples/5/origin.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/053a050c_0.76629_440c0205_-0.76629_gt1.wav"
+                        <source src="samples/5/ref.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/053a050c_0.76629_440c0205_-0.76629_s1.wav"
-                          type="audio/wav"></audio></td>
-                  </tr>
-                  <tr>
-                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/053a050c_0.76629_440c0205_-0.76629_gt2.wav"
-                          type="audio/wav"></audio></td>
-                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/053a050c_0.76629_440c0205_-0.76629_s2.wav"
-                          type="audio/wav"></audio></td>
-                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/"
+                        <source src="samples/5/converted.wav"
                           type="audio/wav"></audio></td>
                   </tr>
                   <tr style="border-top:1px solid black">
-                    <td rowspan="2"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/053a050b_0.016911_443o030x_-0.016911.wav"
+                    <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                        <source src="samples/6/origin.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/053a050b_0.016911_443o030x_-0.016911_gt1.wav"
+                        <source src="samples/6/ref.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/053a050b_0.016911_443o030x_-0.016911_s1.wav"
+                        <source src="samples/6/converted.wav"
                           type="audio/wav"></audio></td>
                   </tr>
-                  <tr>
+                  <tr style="border-top:1px solid black">
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/053a050b_0.016911_443o030x_-0.016911_gt2.wav"
+                        <source src="samples/7/origin.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/053a050b_0.016911_443o030x_-0.016911_s2.wav"
+                        <source src="samples/7/ref.wav"
                           type="audio/wav"></audio></td>
                     <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                        <source src="src/samples/whamr/"
+                        <source src="samples/7/converted.wav"
                           type="audio/wav"></audio></td>
                   </tr>
                 </tbody>
@@ -220,7 +209,7 @@
 
 
             <center>
-            <h3>Non Speech Reference examples</h3>
+            <h3>N2 Values Scale</h3>
             <p></p>
             <p></p>
             <table>
@@ -228,41 +217,35 @@
                 <tr>
                   <th>Grad-TTS</th>
                   <th>Reference</th>
-                  <th>NLVC</th>
+                  <th>NLVC, N2 = 2</th>
+		  <th>NLVC, N2 = 8</th>
+		  <th>NLVC, N2 = 18</th>
+		  <th>NLVC, N2 = 24</th>
+		  <th>NLVC, N2 = 32</th>
                 </tr>
               </thead>
               <tbody>
                 <tr style="border-top:1px solid black">
                   <td rowspan="2"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn2/22go0106_0.742_440o030p_-0.742.wav"
+                      <source src="samples/8/origin.wav"
                         type="audio/wav"></audio></td>
                   <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt2/22go0106_0.742_440o030p_-0.742_s2.wav"
+                      <source src="samples/7/ref.wav"
                         type="audio/wav"></audio></td>
                   <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours2/22go0106_0.742_440o030p_-0.742_s1.wav"
+                      <source src="samples/7/converted2.wav"
                         type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt2/22go0106_0.742_440o030p_-0.742_s1.wav"
+		 <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                      <source src="samples/7/converted8.wav"
                         type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours2/22go0106_0.742_440o030p_-0.742_s2.wav"
+		<td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                      <source src="samples/7/converted18.wav"
                         type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn2/22go0106_0.742_440o030p_-0.742_s2.wav"
+		<td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                      <source src="samples/7/converted24.wav"
                         type="audio/wav"></audio></td>
-                </tr>
-                <tr style="border-top:1px solid black">
-                  <td rowspan="2"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn2/421c020j_1.394_444c020x_-1.394.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt2/421c020j_1.394_444c020x_-1.394_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours2/421c020j_1.394_444c020x_-1.394_s1.wav"
+		<td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+                      <source src="samples/7/converted32.wav"
                         type="audio/wav"></audio></td>
                 </tr>
               </tbody>
@@ -271,598 +254,6 @@
 
 
               <br>  </br>
-
-
-            <h3>WSJ-3mix Dataset Samples</h3>
-            <p></p>
-            <p></p>
-            <table>
-              <thead>
-                <tr>
-                  <th>Mixture input</th>
-                  <th>Ground Truth</th>
-                  <th>Ours</th>
-                  <th>DPRNN</th>
-                  <th>Conv-TasNet</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr style="border-top:1px solid black">
-                  <td rowspan="3"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn3/422o030m_0.69126_442o030i_-0.69126_446o0312_0.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv3/422o030m_0.69126_442o030i_-0.69126_446o0312_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr style="border-top:1px solid black">
-                  <td rowspan="3"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn3/422c0201_0.14718_441o0313_-0.14718_447o030u_0.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv3/422c0201_0.14718_441o0313_-0.14718_447o030u_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-              </tbody>
-            </table>
-
-              <br>  </br>
-
-
-            <h3>WSJ-4mix Dataset Samples</h3>
-            <p></p>
-            <p></p>
-            <table>
-              <thead>
-                <tr>
-                  <th>Mixture input</th>
-                  <th>Ground Truth</th>
-                  <th>Ours</th>
-                  <th>DPRNN</th>
-                  <th>Conv-TasNet</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr style="border-top:1px solid black">
-                  <td rowspan="4"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s1.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s2.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s3.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv4/22go0107_2.411_440o030k_1.6598_446o030m_-1.6598_421o030r_-2.411_s4.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr style="border-top:1px solid black">
-                  <td rowspan="4"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s1.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s2.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s4.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv4/22ho010z_0.70341_053o020b_0.96111_444c0210_-0.96111_050c0107_-0.70341_s3.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-              </tbody>
-            </table>
-
-              <br>  </br>
-
-
-            <h3>WSJ-5mix Dataset Samples</h3>
-            <p></p>
-            <p></p>
-            <table>
-              <thead>
-                <tr>
-                  <th>Mixture input</th>
-                  <th>Ground Truth</th>
-                  <th>Ours</th>
-                  <th>DPRNN</th>
-                  <th>Conv-TasNet</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr style="border-top:1px solid black">
-                  <td rowspan="5"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s4.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s5.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s5.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s5.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s5.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv5/22gc010q_1.9223_052c010w_0.54576_445o0311_-0.54576_050o020d_-1.9223_447c0210_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr style="border-top:1px solid black">
-                  <td rowspan="5"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s4.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s5.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s5.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s5.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/gt5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/ours5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/dprnn5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s5.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/conv5/443o030v_2.2076_441c020w_1.508_22hc010q_-1.508_053o020z_-2.2076_440o030x_0_s1.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-              </tbody>
-            </table>
-
-              <br>
-
-            <h3>WSJ-2mix DB Tested on WSJ-5mix Speakers Model</h3>
-            <p align="justify">Results for model that train on WSJ-5mix and tested on WSJ-2mix. Results suggests that all model have managed to separate the two speakers. However, compared to DPRNN and ConvTasNet which output noise and mixed signals in the rest of the output channels, our model produce silence with significantly less artifacts.  </p>
-            <p></p>
-            <table>
-              <thead>
-                <tr>
-                  <th>Mixture input</th>
-                  <th>Ground Truth</th>
-                  <th>Ours</th>
-                  <th>DPRNN</th>
-                  <th>Conv-TasNet</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr style="border-top:1px solid black">
-                  <td rowspan="5"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/mix/22gc010l_0.11746_444o030o_-0.11746.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/gt/22gc010l_0.11746_444o030o_-0.11746_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/ours/22gc010l_0.11746_444o030o_-0.11746_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/dprnn/22gc010l_0.11746_444o030o_-0.11746_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/convtasnet/22gc010l_0.11746_444o030o_-0.11746_s4.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/gt/22gc010l_0.11746_444o030o_-0.11746_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/ours/22gc010l_0.11746_444o030o_-0.11746_s5.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/dprnn/22gc010l_0.11746_444o030o_-0.11746_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/convtasnet/22gc010l_0.11746_444o030o_-0.11746_s3.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <!--<td><audio controls class="audio-player" preload="metadata" style="width: 180px;">-->
-                      <!--<source src=-->
-                        <!--type="audio/wav"></audio></td>-->
-                  <td> </td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/ours/22gc010l_0.11746_444o030o_-0.11746_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/dprnn/22gc010l_0.11746_444o030o_-0.11746_s1.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/convtasnet/22gc010l_0.11746_444o030o_-0.11746_s1.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <!--<td><audio controls class="audio-player" preload="metadata" style="width: 180px;">-->
-                      <!--<source src=-->
-                        <!--type="audio/wav"></audio></td>-->
-                  <td> </td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/ours/22gc010l_0.11746_444o030o_-0.11746_s2.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/dprnn/22gc010l_0.11746_444o030o_-0.11746_s4.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/convtasnet/22gc010l_0.11746_444o030o_-0.11746_s2.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-                <tr>
-                  <!--<td><audio controls class="audio-player" preload="metadata" style="width: 180px;">-->
-                      <!--<source src=-->
-                        <!--type="audio/wav"></audio></td>-->
-                  <td> </td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/ours/22gc010l_0.11746_444o030o_-0.11746_s3.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/dprnn/22gc010l_0.11746_444o030o_-0.11746_s5.wav"
-                        type="audio/wav"></audio></td>
-                  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                      <source src="src/samples/crossdbs/convtasnet/22gc010l_0.11746_444o030o_-0.11746_s5.wav"
-                        type="audio/wav"></audio></td>
-                </tr>
-              </tbody>
-            </table>
-
-
-            <br>  </br>
-
-                          <center>
-                          <h3> Mixtures recorded in the wild - 2 speakers</h3>
-                          <p></p>
-                          <p></p>
-                          <table>
-                            <thead>
-                              <tr>
-                                <th>Mixture input</th>
-                                <th>Ours</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr style="border-top:1px solid black">
-                                <td rowspan="2"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/into_the_wild/ex1.wav"
-                                      type="audio/wav"></audio></td>
-                                <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/into_the_wild/ex1_s1.wav"
-                                      type="audio/wav"></audio></td>
-                                <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/22go010m_0.3947_421o0310_-0.3947_s1.wav"
-                                      type="audio/wav"></audio></td> -->
-                                <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/"
-                                      type="audio/wav"></audio></td>
-                                <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/"
-                                      type="audio/wav"></audio></td> -->
-                              </tr>
-                              <tr>
-                                <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/into_the_wild/ex1_s2.wav"
-                                      type="audio/wav"></audio></td>
-                                <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/22go010m_0.3947_421o0310_-0.3947_s2.wav"
-                                      type="audio/wav"></audio></td> -->
-                                <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/"
-                                      type="audio/wav"></audio></td> -->
-                                <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/"
-                                      type="audio/wav"></audio></td> -->
-                              </tr>
-                              <tr style="border-top:1px solid black">
-                                <td rowspan="2"><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/into_the_wild/ex2.wav"
-                                      type="audio/wav"></audio></td>
-                                <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/into_the_wild/ex2_s1.wav"
-                                      type="audio/wav"></audio></td>
-                                <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/pred1.wav"
-                                      type="audio/wav"></audio></td> -->
-                                <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/"
-                                      type="audio/wav"></audio></td>
-                                <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/"
-                                      type="audio/wav"></audio></td> -->
-                              </tr>
-                              <tr>
-                                <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/into_the_wild/ex2_s2.wav"
-                                      type="audio/wav"></audio></td>
-                                <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/pred2.wav"
-                                      type="audio/wav"></audio></td> -->
-                                <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/"
-                                      type="audio/wav"></audio></td> -->
-                                <!-- <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-                                    <source src="src/samples/wham/"
-                                      type="audio/wav"></audio></td> -->
-                              </tr>
-                            </tbody>
-                          </table>
-
-                          <br>  </br>
-
-
-			</center>
           </div>
         </div>
       </div>
